@@ -23,6 +23,7 @@ RUN echo "===> Adding Ansible's prerequisites..."   && \
                 git                                 && \
     pip install --upgrade wheel setuptools          && \
     pip install --upgrade pyyaml jinja2 pycrypto    && \
+    pip install --upgrade boto                      && \
     \
     \
     echo "===> Downloading Ansible's source tree..."            && \
